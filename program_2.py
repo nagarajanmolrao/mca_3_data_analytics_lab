@@ -1,9 +1,9 @@
-#Write a Python program to insert an element into a sorted list
+# Write a Python program to insert an element into a sorted list
 
 size = int(input("Enter the number of elements:\n"))
 arr = []
 for i in range(0, size):
-    ele = int(input("Enter "+str(i)+" element: "))
+    ele = int(input("Enter " + str(i) + " element: "))
     arr.append(ele)
 
 arr.sort()
