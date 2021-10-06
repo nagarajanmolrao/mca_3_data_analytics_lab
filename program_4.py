@@ -3,7 +3,5 @@
 
 import numpy as np
 
-with open("supportFiles/dataForProgram4.txt", "r") as fp:
-    print(np.loadtxt(fp, delimiter=',', dtype=int))
-
-
+with open("supportFiles/grades.csv", "r", encoding="utf-8") as fp:
+    print(np.genfromtxt(fp, delimiter=','))
